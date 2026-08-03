@@ -1,11 +1,13 @@
 import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
+import Services from "./components/Services/Services";
 
 function App() {
   return (
     <>
       <Navbar />
       <Hero />
+      <Services />
 
       <main>
         <h1>Premier Medical Hospital Portal</h1>
