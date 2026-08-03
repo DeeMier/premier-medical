@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 18px 40px;
+
+    background-color: #0B5ED7;
+    color: white;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.nav-links li {
+    cursor: pointer;
+    transition: .3s;
+}
+
+.nav-links li:hover {
+    color: #B8D8FF;
+}
+
+.nav-buttons {
+    display: flex;
+    gap: 12px;
+}
+
+.patient-btn,
+.doctor-btn {
+    padding: 10px 18px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.patient-btn {
+    background: white;
+    color: #0B5ED7;
+}
+
+.doctor-btn {
+    background: #28A745;
+    color: white;
+}
