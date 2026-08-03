@@ -1,0 +1,100 @@
+.hero {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 80px 60px;
+
+    min-height: 80vh;
+
+}
+
+
+.hero-content {
+
+    width: 50%;
+
+}
+
+
+.hero-content h1 {
+
+    font-size: 52px;
+
+    color: #0B5ED7;
+
+    margin-bottom: 20px;
+
+}
+
+
+.hero-content p {
+
+    font-size: 20px;
+
+    color: #555;
+
+    line-height: 1.6;
+
+}
+
+
+.hero-buttons {
+
+    margin-top: 30px;
+
+}
+
+
+.hero-buttons button {
+
+    padding: 14px 25px;
+
+    margin-right: 15px;
+
+    border: none;
+
+    border-radius: 8px;
+
+    cursor: pointer;
+
+    font-size: 16px;
+
+}
+
+
+.hero-buttons button:first-child {
+
+    background-color: #0B5ED7;
+
+    color: white;
+
+}
+
+
+.hero-buttons button:last-child {
+
+    background-color: #28A745;
+
+    color: white;
+
+}
+
+
+.hero-image {
+
+    width: 40%;
+
+    display: flex;
+
+    justify-content: center;
+
+}
+
+
+.hospital-placeholder {
+
+    font-size: 150px;
+
+}
