@@ -1,45 +1,35 @@
 import "./Hero.css";
+import hospitalImage from "../../assets/images/hospital-hero.jpg";
+
 function Hero() {
   return (
     <section className="hero">
-
       <div className="hero-content">
+        <p className="hero-tag">Trusted Healthcare Since 1998</p>
 
         <h1>
-          Compassionate Care.
+          Compassionate Care
           <br />
-          Advanced Medicine.
+          For Every Patient
         </h1>
 
-        <p>
-          Premier Medical provides trusted healthcare services
-          with experienced doctors and modern technology.
+        <p className="hero-description">
+          Premier Medical provides exceptional healthcare with experienced
+          physicians, advanced technology, and personalized treatment plans.
         </p>
 
         <div className="hero-buttons">
-
-          <button>
-            Book Appointment
-          </button>
-
-          <button>
-            Patient Login
-          </button>
-
+          <button className="primary-btn">Book Appointment</button>
+          <button className="secondary-btn">Patient Portal</button>
         </div>
-
       </div>
-
 
       <div className="hero-image">
-
-        <div className="hospital-placeholder">
-          🏥
-        </div>
-
+        <img
+          src={hospitalImage}
+          alt="Doctors providing medical care"
+        />
       </div>
-
-
     </section>
   );
 }
